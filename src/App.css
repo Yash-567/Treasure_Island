@@ -1,0 +1,31 @@
+#grid-container{
+  display: inline-grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(10,1fr);
+  grid-gap: 8 px;
+  column-gap: 2rem;
+  margin: 0;
+  grid-row-gap: 0;
+  grid-column-gap: 0;
+  padding: 0;
+}
+#grid-item{
+  margin: 0px;
+  border: solid 1px black;
+  max-width: 50px;
+  max-height:50px;
+}
+#grid-item:hover{
+  background-color: #372297;
+}
+
+img{
+  height: 50px;
+  widows: 50px;
+}
+.main{
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
